@@ -1,13 +1,12 @@
 # DCGAN implementation in PyTorch
 
-I would like to sincerely thank the authors of CycleGAN for using their open-sourced source code in PyTorch. The code has been fully borrowed from the author's code. Example dataset has been added. Citing here instead of citing in every file.
+I would like to sincerely thank the author of DCGAN tutorial for using their open-sourced source code in PyTorch. The code has been fully borrowed from the author's code. Example dataset has been added. 
 
-The CycleGAN code was written by [Jun-Yan Zhu](https://github.com/junyanz) and [Taesung Park](https://github.com/taesung)(https://ssnl.github.io/).
+The DCGAN code was written by Nathan Inkawhich (https://github.com/inkawhich)
 
-Kindly refer, [original CycleGAN page](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) for installing packages. 
 
-Steps:
- Clone the repository and save it in your Google Drive as pytorch-CycleGAN.
+Procedure:
+ Clone the repository and save it in your Google Drive as pytorch-DCGAN. You can shift the python notebook to Colab Notebooks folder. Create  
  
 ### Data Preprocessing: 
 Download preferred datasets using the following command in Google Collaboratory
@@ -50,4 +49,7 @@ Once you have trained the model, you can see the log loss file in the folder cap
   ## Reference citation: 
 ```
 DCGAN tutorial: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+```
+```
+DCGAN paper: Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).
 ```
