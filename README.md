@@ -5,7 +5,7 @@ I would like to sincerely thank the author of DCGAN tutorial for using their ope
 The DCGAN code was written by Nathan Inkawhich (https://github.com/inkawhich)
 
 
-###Procedure:
+##Procedure:
  Clone the repository and save it in your Google Drive. You can shift the python notebook to Colab Notebooks folder.   
  
 ### Data Preprocessing: 
