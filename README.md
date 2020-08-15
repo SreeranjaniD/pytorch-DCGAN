@@ -13,10 +13,10 @@ Download preferred dataset MNIST from http://yann.lecun.com/exdb/mnist/ , celebr
   
  You can also use the example dataset provided in the repository. Example dataset has been added with 70 MNIST training images. 
 
-## Training 
+### Training 
 Run all the cells present in the notebook for the DCGAN to train.
 
-# Experiment analysis 
+### Experiment analysis 
 
 Once you have trained the model, you can see the loss curve in the notebook. Based on the loss curve different hyperparameters can be experimented with. The fake images are displayed in the notebook itself for qualitative analysis.
   
